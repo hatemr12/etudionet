@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>page d'accueil</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+ <link rel="shortcut icon" href="icon.ico">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/lib/w3.css">
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>Page d'accueil</h1>
+     
+    </div>
+    <nav>
+	
+      <ul>
+	  <li><a href="comment_rediger_un_bon_cv.pdf">Comment rédiger un bon cv</a></li>
+        <li><a href="cv.php">crée votre cv </a></li>
+        <li><a href="form_stage.php">déposer un offre de stage</a></li>
+        <li><a href="result.php">consulter les offre des stages</a></li>
+		<br><br>
+        <li><a href="le_chomage.pdf">rapport sur le chômage en tunisie</a></li>
+		<li><a href="guide.pdf">guide pour etudiant</a></li>
+		 <li><a href="lettre de motivation.pdf">Comment rédiger une lettre de motivation</a></li>
+      </ul>
+	 
+	 
+	 
+	</nav>
+  </header>
+</div>
+<!-- content -->
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/lib/w3.css">
+<style>
+.mySlides {display:none;}
+.yolo{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+	font-size: 20px;
+    text-align: justify;
+    text-decoration:none;
+    color: black;
+	 letter-spacing: 0px;
+	 background-color:#e8eae8;
+	 line-height: 150%;
+	 font-family: "Times New Roman";
+}
+</style>
+<body>
+
+<section class="yolo">
+      <p>ce site est réalisé pour vous donnez une idée sur le chômage en tunisie .<br>notre site vous permettre d'avoir les meilleurs conseils et informations pour réussir votre cv, lettre de motivation.</p>
+
+    </section>
+	
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="1.jpg" width="960" height="360" alt="">
+  <img class="mySlides" src="2.jpg" width="960" height="360" alt="">
+  <img class="mySlides" src="3.jpg" width="960" height="360" alt="">
+  <img class="mySlides" src="4.jpg" width="960" height="360" alt="">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+    
+    </br></br></br></br>
+    <div id="homepage">
+      
+      <h1>VIDÉOTHÈQUE</h1>
+      <section id="services" class="clear">
+      <table>
+      <tr><td>
+      <iframe width="500" height="300" src="https://www.youtube.com/embed/x3Zp-TW5LVI" frameborder="0" allowfullscreen></iframe>
+      <iframe width="500" height="300" src="https://www.youtube.com/embed/ccKgilPMG1M" frameborder="0" allowfullscreen></iframe>
+      </td>
+      <td>
+	  <iframe width="500" height="300" src="https://www.youtube.com/embed/9PcSTL6n0us" frameborder="0" allowfullscreen></iframe>
+	  <iframe width="500" height="300" src="https://www.youtube.com/embed/1QDkXJQovr4" frameborder="0" allowfullscreen></iframe>
+      </td></tr>
+      
+      </table>
+       </div>
+
+</body>
+</html>
